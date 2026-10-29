@@ -218,3 +218,22 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# RAG Evidence Verification - Project Rules
+# ==========================================
+
+# FinanceBench dataset and SEC filings
+/data/
+
+# API credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Generated experiment results
+/results/*
+!/results/.gitkeep
+
+# macOS files
+.DS_Store
